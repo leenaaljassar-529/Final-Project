@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Jekyll v4.0.1" />
+    <title>Categories</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/4.5/examples/carousel/"
+    />
+    <link href="styles.css" rel="stylesheet">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.css" rel="stylesheet" />
+
+   
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet" />
+  </head>
+  <body id="main">
+    <header>
+      <nav
+        class="navbar navbar-expand-md navbar-dark fixed-top"
+        style="background-color: #c9b6ab;"
+      >
+
+        <a class="navbar-brand" href="#">          <img width="70" style="padding:0" src="assets/LOGO.PNG"> </a>
+    </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+        
+            <li class="nav-item dropdown">
+              <a
+              href="categories.html"
+                class="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Categories
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item insetshadowb" href="crochet.html">Crochet</a>
+                <a class="dropdown-item insetshadowb" href="embroidery.html">Embroidery </a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categories.html">Lessons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="community.html">Community</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+
+          </ul>
+          <button type="button" class="btn btn-secondary btn-sm">EN</button>      
+              <button type="button" class="btn btn-outline-secondary btn-sm">AR</button>
+
+          <form style="margin-left: 10px" class="form-inline mt-2 mt-md-0">
+            <input
+              class="form-control mr-sm-2"
+              type="text"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+<!-- content start -->
+<!-- <hr class="featurette-divider" /> -->
+<div style="margin-top: 80px;">
+    <span style="cursor:pointer;background-color: #907c707c;" class="lesson" onclick="openNav()">&#9776; Categories</span>
+  </div>
+
+
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn text-decoration-none" style="margin-top: 100px;" onclick="closeNav()">x</a>
+  <a class="text-decoration-none"style="margin-top: 80px;"href="#crochet">Crochet</a>
+  <a class="text-decoration-none" href="#embroidery">Embroidery</a>
+
+</div>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+
+
+    <main role="main">
+                <!-- crochet -->
+                
+                <h3  id="crochet" style="padding:20px" class="title text-center"> Crochet</h3>
+      
+        <div class="row">
+            <div class="column">
+              <div style="background-color: #EBDBD2" class="card">
+                <img width="100%" height="250px" style="margin: 0" src="./assets/cat.jpg"/>
+                <a class="text-decoration-none subtitle"  href="crochetl1.html"><p>Cat Amigurumi</p></a>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div style="background-color: #EBDBD2" class="card">
+                <img width="100%" height="250px" style="margin: 0" src="./assets/whale.jpg"/>
+                <a class="text-decoration-none subtitle"  href="crochetl2.html"><p>Whale Amigurumi</p></a>
+              </div>
+            </div>
+            
+            <div class="column">
+              <div style="background-color: #EBDBD2" class="card">
+                <img width="100%" height="250px"style="margin: 0" src="./assets/earsaver.jpg"/>
+                <a class="text-decoration-none subtitle"  href="crochetl3.html"><p>Ear Savers</p></a>
+              </div>
+            </div>
+            
+            <div class="column">
+              <div style="background-color: #EBDBD2" class="card">
+                <img width="100%" height="250px"style="margin: 0" src="./assets/pencil case.jpg"/>
+                <a class="text-decoration-none subtitle"  href="crochetl4.html"><p>Pencil Case</p></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- embroidery -->
+          <hr id="embroidery" class="featurette-divider" />
+          <h3  style="padding:20px" class="title text-center"> Embroidery</h3>
+          <div class="row">
+            <div class="column">
+              <div style="background-color: #EBDBD2"  class="card">
+                <img width="100%" height="250px" style="margin: 0" src="./assets/embroidery1.jpg"/>
+               <a class="text-decoration-none subtitle"  href="embroideryl1.html"><p>Floral Embroidery</p></a>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div style="background-color: #EBDBD2" class="card">
+                <img width="100%" height="250px" style="margin: 0" src="./assets/embroideymountain.jpg"/>
+                <a class="text-decoration-none subtitle" href="embroideryl2.html"><p>Mountain Embroidery</p></a>
+            </div>
+            </div>
+            
+            <div class="column">
+              <div style="background-color: #EBDBD2"class="card">
+                <img width="100%" height="250px"style="margin: 0" src="./assets/embroideryflower.jpg"/>
+                <a class="text-decoration-none subtitle" href="embroideryl3.html"><p>Flowers Embroidery</p></a>
+            </div>
+            </div>
+            
+            <div class="column">
+              <div style="background-color: #EBDBD2" class="card">
+                <img width="100%" height="250px"style="margin: 0" src="./assets/embroidery4design.jpg"/>
+                <a class="text-decoration-none subtitle" href="embroideryl4.html"><p>Design Embroidery</p></a>
+            </div>
+            </div>
+          </div>
+
+        
+        <!-- /END THE FEATURETTES -->
+      </div>
+      <!-- /.container -->
+
+      <!-- FOOTER -->
+      <hr class="featurette-divider" />
+
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>
+          &copy; 2020 Company, Inc. &middot;
+          <a href="contact.html">Contact </a>  
+        </p>
+       
+      </footer>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>'
+        );
+    </script>
+    <script src="../assets/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
+
