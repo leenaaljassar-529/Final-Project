@@ -1,3 +1,11 @@
-Final Project idea:
+مرحباً بك!
+أتمنى ان تستمتع بزيارة موقعي!
+--
+Hello!
+Hope you enjoy my website!
 
-name: هواياتي
+---
+
+---
+
+Thank you for the coding opportunity, I really enjoyed it :)
